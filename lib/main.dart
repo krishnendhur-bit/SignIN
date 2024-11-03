@@ -26,11 +26,8 @@ class _DemoState extends State<Demo> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue,
-        ),
 
-        body: screens[currentIndexValue],
+       body: screens[currentIndexValue],
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: currentIndexValue,
           onTap: (index){
